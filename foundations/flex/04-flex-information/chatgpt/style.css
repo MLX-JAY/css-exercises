@@ -4,25 +4,25 @@ body {
   flex-direction: column;
   align-items: center;
   flex: 1;
-  padding :16px;
+  padding: 16px;
 }
-.container
-{
+
+.container {
   display: flex;
   justify-content: space-between;
-  padding :16px;
+  width: 70%;
+  padding: 16px;
+  
 }
-.item
-{
+
+.item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
   text-align: center;
-  flex:1;
-  margin:0 8px;
+  margin: 0 8px;
 }
-
-
 
 img {
   width: 100px;
@@ -34,7 +34,6 @@ img {
   font-weight: 900;
 }
 
-/* do not edit this footer */
 .footer {
   position: fixed;
   bottom: 0;
